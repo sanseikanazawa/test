@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Test.java&apos; to &apos;person/src/jp.co.internous.action&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;test&apos;&#x0D;&#x0A;- 宛先要素: &apos;person/src/jp.co.internous.action&apos;&#x0D;&#x0A;- オリジナル要素: &apos;jp.co.internous.action.Test.java&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="=person/src&lt;jp.co.internous.action" element1="/src&lt;jp.co.internous.action{Test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1537851881750" units="1" version="1.0"/>
+</session>
