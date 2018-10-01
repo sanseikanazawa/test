@@ -1,4 +1,4 @@
-drop database if exists test testdb;
+drop database if exists testdb;
 create database testdb;
 use testdb;
 
