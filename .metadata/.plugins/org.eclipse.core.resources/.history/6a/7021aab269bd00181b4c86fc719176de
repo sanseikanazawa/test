@@ -1,9 +1,0 @@
-
-public class HelloWorld {
-
-	public static void main(String[] args) {
-		// Hello world!の出力
-system.out.print ln("Hello World");
-	}
-
-}
