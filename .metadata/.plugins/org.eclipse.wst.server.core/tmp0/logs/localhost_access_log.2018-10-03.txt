@@ -14,3 +14,10 @@
 0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:39:56 +0900] "GET /HelloServlet/TestServlet?username=%EF%BD%91&password= HTTP/1.1" 200 52
 0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:40:00 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 52
 0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:41:07 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 599
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:57:30 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:57:32 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 404 1067
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:57:45 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 599
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:57:53 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 66
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:58:02 +0900] "GET /HelloServlet/TestServlet?username=%E3%81%82&password=a HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:58:08 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:17:58:13 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 599
