@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1538718253347" analysisTimestamp="1538718241454" release="">
+  <Project projectName="WebProj">
+    <Jar>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\build\classes</Jar>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\build\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\ecj-4.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\6\lib\tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\commons-fileupload-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\commons-lang3-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\freemarker-2.3.28.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\javassist-3.11.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\mysql-connector-java-5.1.47-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\ognl-3.0.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\struts2-core-2.3.35.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\WebContent\WEB-INF\lib\xwork-core-2.3.35.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\6\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\internousdev\Desktop\workspace\workspace-kanazawa\test\WebProj\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 5 Oct 2018 14:18:27 +0900" total_classes="2" referenced_classes="30" total_bugs="0" total_size="6" num_packages="1" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="31.22" clock_seconds="11.90" peak_mbytes="1269.30" alloc_mbytes="2026.00" gc_seconds="0.08">
+    <PackageStats package="com.internousdev.webproj.action" total_bugs="0" total_types="2" total_size="6">
+      <ClassStats class="com.internousdev.webproj.action.HelloStrutsAction" sourceFile="HelloStrutsAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="875" invocations="2" avgMicrosecondsPerInvocation="437884" maxMicrosecondsPerInvocation="644765" standardDeviationMircosecondsPerInvocation="206881"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="421" invocations="309" avgMicrosecondsPerInvocation="1363" maxMicrosecondsPerInvocation="45709" standardDeviationMircosecondsPerInvocation="3864"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="208" invocations="315" avgMicrosecondsPerInvocation="660" maxMicrosecondsPerInvocation="2768" standardDeviationMircosecondsPerInvocation="373"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="194" invocations="117" avgMicrosecondsPerInvocation="1662" maxMicrosecondsPerInvocation="20372" standardDeviationMircosecondsPerInvocation="2743"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="174" invocations="30" avgMicrosecondsPerInvocation="5800" maxMicrosecondsPerInvocation="35931" standardDeviationMircosecondsPerInvocation="10584"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="146" invocations="30" avgMicrosecondsPerInvocation="4883" maxMicrosecondsPerInvocation="39346" standardDeviationMircosecondsPerInvocation="9405"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="143" invocations="2" avgMicrosecondsPerInvocation="71766" maxMicrosecondsPerInvocation="143113" standardDeviationMircosecondsPerInvocation="71346"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="90" invocations="49" avgMicrosecondsPerInvocation="1850" maxMicrosecondsPerInvocation="43952" standardDeviationMircosecondsPerInvocation="6587"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="80" invocations="30" avgMicrosecondsPerInvocation="2677" maxMicrosecondsPerInvocation="25021" standardDeviationMircosecondsPerInvocation="5783"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="69" invocations="30" avgMicrosecondsPerInvocation="2330" maxMicrosecondsPerInvocation="21205" standardDeviationMircosecondsPerInvocation="5351"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1538718253341" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
