@@ -112,3 +112,6 @@
 0:0:0:0:0:0:0:1 - - [10/Oct/2018:15:42:30 +0900] "POST /WebProj2/InquiryAction.action HTTP/1.1" 200 962
 0:0:0:0:0:0:0:1 - - [10/Oct/2018:15:42:33 +0900] "POST /WebProj2/WelcomeAction.action HTTP/1.1" 200 845
 0:0:0:0:0:0:0:1 - - [10/Oct/2018:15:42:39 +0900] "POST /WebProj2/LoginAction.action HTTP/1.1" 200 202
+127.0.0.1 - - [10/Oct/2018:17:30:38 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [10/Oct/2018:17:30:42 +0900] "GET /WebProj3/ HTTP/1.1" 200 455
+0:0:0:0:0:0:0:1 - - [10/Oct/2018:17:30:59 +0900] "POST /WebProj3/HelloStrutsAction.action;jsessionid=4660E74C86197A539E6A4ABEA9394D88 HTTP/1.1" 200 192
