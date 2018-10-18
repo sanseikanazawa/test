@@ -1,9 +1,9 @@
-set names utf-8;
+set names utf8;
 set foreign_key_checks=0;
-drop database if exists ecsite;
+drop database if exists ecsitekana;
 
-create database if not exists ecsite;
-use ecsite;
+create database if not exists ecsitekana;
+use ecsitekana;
 
 drop table if exists login_user_transaction;
 
@@ -18,14 +18,26 @@ updated_date datetime
 
 drop table if exists item_info_transaction;
 
-create table if exists user_buy_item_transaction(
+create table item_info_transaction(
+id int not null primary key auto_increment,
+item_name varchar(30),
+item_price int,
+item_stock int,
+insert_date datetime,
+update_date datetime
+);
+
+
+drop table if exists user_buy_item_transaction;
+
+create table user_buy_item_transaction(
 id int not null primary key auto_increment,
 item_transaction_id int,
 total_price int,
 total_count int,
 user_master_id varchar(16),
 pay varchar(30),
-insert_data datatime,
+insert_date datetime,
 delete_date datetime
 );
 
