@@ -74,3 +74,5 @@
 0:0:0:0:0:0:0:1 - - [18/Oct/2018:17:36:24 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 1981
 0:0:0:0:0:0:0:1 - - [18/Oct/2018:17:36:29 +0900] "POST /template/MyPageAction.action HTTP/1.1" 200 1354
 0:0:0:0:0:0:0:1 - - [18/Oct/2018:17:36:32 +0900] "GET /template/HomeAction.action HTTP/1.1" 200 1864
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:17:57:39 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 2161
+0:0:0:0:0:0:0:1 - - [18/Oct/2018:17:57:40 +0900] "POST /template/BuyItemAction.action HTTP/1.1" 200 1750
